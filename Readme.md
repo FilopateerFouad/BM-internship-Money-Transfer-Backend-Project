@@ -31,5 +31,7 @@ This is a Money Transfer application developed using Java Spring Boot. The appli
 *Requirements*
 
 .Java 11 or higher
+
 .Maven 3.6.0 or higher
+
 .Postgres or any other relational database
