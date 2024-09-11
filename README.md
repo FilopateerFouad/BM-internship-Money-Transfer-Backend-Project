@@ -1,8 +1,8 @@
-#Money Transfer Application
+Money Transfer Application
 
 This is a Money Transfer application developed using Java Spring Boot. The application handles user registration, login, logout, and JWT authentication. Each customer can create an account, manage their account details, transfer money between accounts, and view transaction history.
 
-##Features
+*Features*
 
 1.User Registration
 
@@ -28,33 +28,36 @@ This is a Money Transfer application developed using Java Spring Boot. The appli
 
 12.View Transaction History (Sorted by Date)
 
-##Requirements
+*Requirements*
 
-.Java 11 or higher
+Java 11 or higher
 
-.Maven 3.6.0 or higher
+Maven 3.6.0 or higher
 
-.Postgres or any other relational database
+Postgres or any other relational database
 
-##Setup
-#####Clone the repository:
-git clone https://github.com/FilopateerFouad/BM-internship-Money-Transfer-Backend-Project
+*Setup*
+
+Clone the repository:
+git clone: https://github.com/FilopateerFouad/BM-internship-Money-Transfer-Backend-Project
+
 cd money-transfer-app
 
-#####configure the database:
+configure the database:
+
 properties
-'spring.datasource.url=jdbc:mysql://localhost:3306/money_transfer_db'
-'spring.datasource.username=your_db_username'
-'spring.datasource.password=your_db_password'
-'spring.jpa.hibernate.ddl-auto=update'
+spring.datasource.url=jdbc:mysql://localhost:3306/money_transfer_db
+spring.datasource.username=your_db_username
+spring.datasource.password=your_db_password
+spring.jpa.hibernate.ddl-auto=update
 
-#####Install dependencies and build the project:
-'mvn clean install'
+Install dependencies and build the project: -mvn clean install
 
-#####Run the application:
-'mvn spring-boot:run'
+Run the application: -mvn spring-boot:run
 
-#####Access Swagger UI for API Documentation:
-Open your browser and navigate to http://localhost:8080/swagger-ui.html
+Access Swagger UI for API Documentation:
+
+Open your browser and navigate to
+http://localhost:8080/swagger-ui.html
 
 
